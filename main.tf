@@ -13,3 +13,7 @@ variable "env" {
     prod = "prod-vpc"
   }
 }
+
+resource "aws_s3_bucket" "main" {
+  bucket = "dhval-tst-terraform-cloud-hashi-1"
+}
